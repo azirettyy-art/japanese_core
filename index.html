@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Japanese core</title>
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="container">
+            <span class="logo">logo</span>
+            <nav>
+                <ul>
+                    <li class="active"><a href="/">Home</a></li>
+                    <li><a href="/about.html">About us</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">News</a></li>
+                    <li class="btn"><a href="/contacts.html">Contacts</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="hero container">
+            <div class="hero--info">
+                <h2>Japanece Core</h2>
+                <h1>10 Basic Japanese Words to Get You Started</h1>
+                <p>If you re only going to learn 10 core Japanese words from this article, walk away with these:</p>
+                <button class="btn">Get More</button>
+            </div>
+            <img src="img/joystick.svg" alt="">
+        </div>
+
+        <div class="container trending">
+             <a href="#" class="see-all">SEE ALL</a>
+            <h3>Variants</h3>
+           
+            <div class="games">
+                <div class="block">
+                    <img src="/img/Image.svg" alt="">
+                    <span><img src="img/flower.png" alt="">40 Visits</span>
+               </div>
+               <div class="block">
+                    <img src="/img/image1.svg" alt="">
+                    <span><img src="img/flower.png" alt="">40 Visits</span>
+               </div>
+               <div class="block">
+                    <img src="/img/Image2.svg" alt="">
+                    <span><img src="img/flower.png" alt="">40 Visits</span>
+               </div>
+               <div class="block">
+                    <img src="/img/image3.svg" alt="">
+                    <span><img src="img/flower.png" alt="">40 Visits</span>
+               </div>
+            </div>
+        </div>
+
+        <div class="div container big-text">
+            <p>Japanese is considered one of the fastest languages in the world.</p>
+        </div>
+
+        <div class="container banner">
+            <h3>Tokyo</h3>
+            <p>Tokyo, officially the Tokyo Metropolis, is the capital and most populous city in Japan. With a population of over 14 million in the city proper in 2023, it is one of the most populous urban areas in the world. The Greater Tokyo Area, which includes Tokyo and parts of six neighboring prefectures, is the most populous metropolitan area in the world, with 41 million residents as of 2024.</p>
+            <img src="img/banner.svg" alt="">
+        </div>
+    </div>
+    <div class="div features">
+        <div class="container">
+            <h3>Tokyo was originally known as Edo (江戸), a kanji compound of 江 and 戸 </h3>
+            <p>be translated as "estuary", is a reference to the original settlement's location at the meeting of the Sumida River and Tokyo Bay.</p>
+            <div class="info">
+                <div class="class info">
+                    <img src="/img/flower1.svg" alt="">
+                    <p>flower</p>
+                </div>
+                 <div class="class info">
+                    <img src="/img/flower2.svg" alt="">
+                    <p>flower</p>
+                </div>
+                 <div class="class info">
+                    <img src="/img/flower3.svg" alt="">
+                    <p>flower</p>
+                </div>
+                 <div class="class info">
+                    <img src="/img/flower4.svg" alt="">
+                    <p>flower</p>
+                </div>
+                 <div class="class info">
+                    <img src="/img/flower5.svg" alt="">
+                    <p>flower</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="wrapper">
+        <div class="container projects">
+            <h3>Our Recent Projects</h3>
+            <p>Very good place is a "JAPAN"</p>
+            <div class="class images">
+                <img src="img/2.svg" alt="">
+                <img src="img/4.svg" alt="">
+        </div>
+                <a href="" class="see-all">SEE ALL</a>
+         </div>
+
+        <div class="container email">
+            <h3>Search other places</h3>
+            <p>Place , defined as any concentration of population</p>
+            <div class="block">
+                <div>
+                    <h4>Look for places</h4>
+                    <p>Subscribe and to receive the latest news and updates about JAPAN
+                        We promise not to do spam you! </p>
+                </div>
+                <div>
+                    <input type="email" id="emailField" placeholder="Enter email address">
+                    <button onclick="checkEmail()">Continue</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="blocks container">
+            <div>
+                <span class="logo">logo</span>
+                <p>The site of Tokyo has been inhabited since ancient times, and there have been multiple Paleolithic period sites found in present-day Tokyo.</p>
+            </div>
+            <div>
+                <h4>About us</h4>
+                <ul>
+                    <li>Zeux</li>
+                    <li>Portfolio</li>
+                    <li>Careers</li>
+                    <li>Contact us</li>
+                </ul>
+            </div>
+            <div>
+                <h4>Contact us</h4>
+                <p>Lying at the head of Tokyo Bay, Tokyo is part of the Kanto region, on the central coast of Honshu, Japan's largest island.</p>
+                <p>+996 708 012 411</p>
+            </div>
+        </div>
+        <hr>
+        <p>By Aziret</p>
+    </footer>
+
+    <script>
+        function checkEmail() {
+            let email = document.querySelector('#emailField').value;
+            if (!email.includes('@')) alert('Нет символа @');
+            else if (!email.includes('.')) alert('Нет символа .');
+            else alert('Отлично!');
+        }
+    </script>
+</body>
+
+</html>
